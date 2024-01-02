@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ar">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="description"
+            content="موقع القراء الموريتانيين هو موقع يحتوي على تساجيل من بعض القراء الموريتانيين 
+		من بينهم سالم محمد الأمين الملقب الداهن و الحسن ولد حبيب الله و سليمان الرباني ... "
+        />
+        <meta
+            name="keywords"
+            content="موقع القراء الموريتانيين , سالم محمد الأمين , الحسن ولد حبيب الله , سليمان ولد الرباني , الناجي ولد بلال , الراجل ولد عثمان , شيخنا ولد سيد الحاج , محمد لغظف , محمد ولد محمد الراظي , هارون مامادو صو , محمد يحي ولد اليدالي"
+        />
+        <meta name="author" content="Habiboullah" />
+        <meta property="og:image" content="img/icon.png" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="theme-color" content="#000" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+        <meta http-equiv="content-security-policy" />
+        <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+        <meta name="referrer" content="no-referrer" />
+        <meta http-equiv="Strict-Transport-Security" content="max-age=31536000" />
+        <title>القراء الموريتانيين</title>
+        <link rel="service-worker" href="service-worker.js" />
+        <link rel="manifest" href="manifest.json" />
+        <link rel="shortcut icon" href="img/icon.png" type="image/png" />
+        <link rel="icon" href="img/icon.png" type="image/x-icon" />
+        <link rel="stylesheet" href="style.css" as="style" onload="this.onloed=null;this.rel='stylesheet'" />
+        <noscript><link rel="stylesheet" href="style.css" /></noscript>
+        <link rel="preload" href="img/icon.png" as="image" />
+        <link rel="apple-touch-icon" />
+        <link rel="canonical" />
+        <link rel="apple-touch-icon-precomposed" />
+        <link rel="apple-touch-startup-image" />
+        <link rel="dns-prefetch" />
+        <link rel="preconnect" />
+    </head>
+    <body>
+        <header>
+            <div class="wrapper">
+                <svg><text x="50%" y="50%" dy=".35em" text-anchor="middle">القراء الموريتانيين</text></svg>
+            </div>
+            <q>استمع للقرآن الكريم بصوت قارئك المفضل</q>
+        </header>
+        <br />
+        <main>
+            <fieldset>
+                <legend>قائمة القراء</legend>
+                <div class="quari-list">
+                    <div class="quari"><a href="quari/Salem.html">سالم محمد الأمين</a></div>
+                    <!--<div class="quari"><a href="quari/Radhi.html">محمد ولد محمد الراظي</a></div>-->
+                    <div class="quari"><a href="quari/Hassen.html">الحسن ولد حبيب الله</a></div>
+                    <!--<div class="quari"><a href="quari/Haroun.html">هارون ممادو صو</a></div>-->
+                    <div class="quari"><a href="quari/Souleyman.html">سليمان ولد الرباني</a></div>
+                    <!--<div class="quari"><a href="quari/Med.html">محمد يحي اليدالي</a></div>
+    					<div class="quari"><a href="quari/Khajil.html">خاجيل ولد عبد الرحمن</a></div>-->
+                    <div class="quari"><a href="quari/Naji.html">الناجي ولد بلال</a></div>
+                    <div class="quari"><a href="quari/Rajil.html">الراجل ولد عثمان</a></div>
+                    <!--<div class="quari"><a href="quari/Lagdhaf.html">محمد لغظف</a></div>-->
+                    <div class="quari"><a href="quari/Chaikna.html">شيخنا ولد سيدي الحاج</a></div>
+
+                    <section class="dots-container">
+                        <p>سوف يتم توفير المزيد من القراء بإذن الله</p>
+                        <nav class="dot"></nav>
+                        <nav class="dot"></nav>
+                        <nav class="dot"></nav>
+                    </section>
+                </div>
+            </fieldset>
+            <br />
+            <fieldset>
+                <legend>المصحف برواية</legend>
+                <div class="moshaf">
+                    <div class="read"><a href="warsh.html">ورش عن نافع</a></div>
+                    <div class="read"><a href="moshaf/kalon.html">قالون عن نافع</a></div>
+                    <div class="read"><a href="moshaf/hafs.html">حفص عن عاصم</a></div>
+                </div>
+            </fieldset>
+        </main>
+        <br />
+        <footer>
+            <button><a href="mailto:habiboullahmedlemin7@gmail.com">راسلنا</a></button>
+            <button id="download">تحميل</button>
+            <button><a href="about-site.html">عن الموقع</a></button>
+            <p>جميع الحقوق محفوظة © 2024 | <a id="pro" href="https://t.me/Habiboullah1" target="_blank">Habiboullah</a></p>
+        </footer>
+        <script src="main.js"></script>
+    </body>
+</html>
