@@ -1,0 +1,119 @@
+@font-face {
+    font-family: "DTHULUTH";
+    src: url("../fonts/DTHULUTH.ttf");
+}
+body {
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+}
+header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+svg {
+    font-family: "Russo One", sans-serif;
+    width: 100%;
+    height: 100%;
+    background: #E0E0E0;
+}
+@keyframes stroke {
+    0% {
+        fill: rgba(0, 0, 0, 0);
+        stroke: rgba(0, 0, 0, 1);
+        stroke-dashoffset: 25%;
+        stroke-dasharray: 0 50%;
+        stroke-width: 2;
+    }
+    70% {
+        fill: rgba(0, 0, 0, 0);
+        stroke: rgba(0, 0, 0, 1);
+    }
+    80% {
+        fill: rgba(0, 0, 0, 0);
+        stroke: rgba(0, 0, 0, 1);
+        stroke-width: 3;
+    }
+    100% {
+        fill: rgba(0, 0, 0, 1);
+        stroke: rgba(0, 0, 0, 0);
+        stroke-dashoffset: -25%;
+        stroke-dasharray: 50% 0;
+        stroke-width: 0;
+    }
+}
+.wrapper {
+    background-color: #ffffffff;
+    width: 100%;
+    height: 80px;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+}
+.surah-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+.surah {
+    margin: 4px;
+    padding: 2px 4px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+p {
+    text-align: center;
+    color: #000;
+}
+nav {
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: #000;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+h2 {
+    font-family: "DTHULUTH";
+    color: #000;
+}
+.audio {
+    width: 100%;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;    
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background: #E0E0E0;
+    direction: ltr;
+}
+.audio audio {
+    width: 75%;
+    max-width: 500px;
+}
+.audio svg {
+    width: 10%;
+}
+
+footer {
+    width: 100%;
+    background: #E0E0E0;
+    position: fixed;
+    bottom: 0;
+}

@@ -1,0 +1,52 @@
+body{
+    background: linear-gradient(334deg , #6b97f7 , #7525e2 , #f7137e);
+    background-size: 180% 180%;
+    animation: gradient-animation 6s ease infinite;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* تزيين النموذج */
+form {
+	background-color: #f2f2f2;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px #ccc;
+	margin: 20px auto;
+	max-width: 500px;
+}
+
+/* تزيين العناصر داخل النموذج */
+label, input[type="text"], input[type="password"], input[type="submit"] {
+	display: block;
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+input[type="submit"] {
+	background: linear-gradient(334deg , #6b97f7 , #7525e2 , #f7137e);
+	color: white;
+	cursor: pointer;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	font-size: 20px;
+}
+
+input[type="submit"]:hover {
+	background-color: #3e8e41;
+}
+
+/* تزيين الروابط */
+a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+p{
+	text-align: center;
+}
+h1{
+	text-align: center;
+}
